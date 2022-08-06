@@ -160,7 +160,7 @@ export default function VerticalLinearStepper() {
                   <div>
                     <Button
                       variant="contained"
-                      onClick={handleNext(index)}
+                      onClick={() => handleNext(index)}
                       sx={{ mt: 1, mr: 1 }}
                     >
                       {index === steps.length - 1 ? 'Finish' : 'Continue'}
